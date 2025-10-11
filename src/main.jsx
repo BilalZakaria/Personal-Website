@@ -5,6 +5,7 @@ import Navbar from "./App.jsx"
 import MainBody from "./components/MainBody.jsx"
 import AboutMe from "./components/AboutMe.jsx"
 import Projects from "./components/Projects.jsx"
+import Contact from "./components/Contact.jsx"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -12,5 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <MainBody/>
     <AboutMe/>
     <Projects/>
+    <Contact/>
   </React.StrictMode>,
 )
